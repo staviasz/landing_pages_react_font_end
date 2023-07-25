@@ -1,7 +1,12 @@
+import { Heading } from '../../components/Heading';
+import { Wrapper } from './styles';
+
 function Home() {
   return (
-    <div className="Home">
-      <h1>Hello world</h1>
+    <div className="App">
+      <Wrapper>
+        <Heading size="xhuge">O texto que eu quero</Heading>
+      </Wrapper>
     </div>
   );
 }

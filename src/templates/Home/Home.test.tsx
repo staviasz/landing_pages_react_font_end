@@ -1,8 +1,9 @@
-import { render, screen } from '@testing-library/react';
-import App from '.';
+import Home from '.';
+import { renderTheme } from '../../styles/render-theme';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+describe('<Home />', () => {
+  it('should render home', () => {
+    const { debug } = renderTheme(<Home />);
+    debug();
+  });
 });
