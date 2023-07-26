@@ -3,10 +3,9 @@ import { MenuLink } from './styles';
 interface MLinkProps {
   children: string;
   href: string;
-  newtab?: boolean;
+  target?: '_blank' | '_self';
 }
-export const MLink = ({ children, href, newtab = false }: MLinkProps) => {
-  const target = newtab ? '_blank' : '_self';
+export const MLink = ({ children, href, target = '_self' }: MLinkProps) => {
   return (
     <MenuLink target={target} href={href}>
       {children}

@@ -18,26 +18,25 @@ const preview: Preview = {
       values: [
         {
           name: 'light',
-          value: theme.colors.white
+          value: theme.colors.white,
         },
         {
           name: 'dark',
-          value: theme.colors.primaryColor
+          value: theme.colors.primaryColor,
         },
-      ]
-    }
+      ],
+    },
   },
 };
 
 type StoryType = () => JSX.Element;
 export const decorators = [
   (Story: StoryType) => (
-    <ThemeProvider theme={ theme } >
-      <Story/>
+    <ThemeProvider theme={theme}>
+      <Story />
       <GlobalStyles />
     </ThemeProvider>
-  )
-]
+  ),
+];
 
 export default preview;
-
