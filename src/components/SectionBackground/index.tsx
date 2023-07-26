@@ -10,8 +10,9 @@ export const SectionBackground = ({
   children,
   background = false,
 }: SectionProps) => {
+  const backgroundColor = background ? 'true' : 'false';
   return (
-    <Container background={background}>
+    <Container background={backgroundColor}>
       <SectionContainer>{children}</SectionContainer>
     </Container>
   );

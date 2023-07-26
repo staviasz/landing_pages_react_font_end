@@ -1,7 +1,7 @@
 import styled, { css, DefaultTheme } from 'styled-components';
 
 interface ContainerProps {
-  background: boolean;
+  background: string;
 }
 
 const containerBackgroundActivate = (theme: DefaultTheme) => css`
@@ -13,7 +13,7 @@ export const Container = styled.div<ContainerProps>`
   ${({ theme, background }) => css`
     background: ${theme.colors.white};
     color: ${theme.colors.primaryColor};
-    ${background && containerBackgroundActivate(theme)};
+    ${background === 'true' && containerBackgroundActivate(theme)};
     min-height: 100vh;
     display: flex;
     align-items: center;
