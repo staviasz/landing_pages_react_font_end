@@ -6,6 +6,7 @@ function Home() {
     <div className="App">
       <Wrapper>
         <Heading size="xhuge">O texto que eu quero</Heading>
+        {/* <TextContent>ghaehetgdadf hbedhtdbh heathtehb\eda</TextContent> */}
       </Wrapper>
     </div>
   );
