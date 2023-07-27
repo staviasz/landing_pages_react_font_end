@@ -1,7 +1,7 @@
 import { MenuLink } from './styles';
 
 interface MLinkProps {
-  children: string;
+  children: string | React.ReactNode;
   href: string;
   target?: '_blank' | '_self';
 }

@@ -13,14 +13,19 @@ exports[`<SectionBackground /> should render with background dark 1`] = `
   background: #0A1128;
   color: #FFFFFF;
   min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
 <div>
    
   <div
-    background="true"
     class="c0"
   >
     <div
@@ -48,14 +53,19 @@ exports[`<SectionBackground /> should render with background light 1`] = `
   background: #0A1128;
   color: #FFFFFF;
   min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
 <div>
    
   <div
-    background="true"
     class="c0"
   >
     <div

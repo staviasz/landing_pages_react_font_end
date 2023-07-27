@@ -1,13 +1,13 @@
 import { MenuLink } from '../MenuLink/styles';
 import { NLink } from './styles';
 
-type LinkObj = {
-  children: string;
+export type LinkObj = {
+  children: string | React.ReactNode;
   href: string;
   target?: '_blank' | '_self' | string;
 };
 
-interface NavLinkProps {
+export interface NavLinkProps {
   links?: LinkObj[];
 }
 export const NavLink = ({ links = [] }: NavLinkProps) => {

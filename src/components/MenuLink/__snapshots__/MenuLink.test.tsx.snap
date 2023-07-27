@@ -3,6 +3,7 @@
 exports[`<MLink/> should mach 1`] = `
 .c0 {
   display: block;
+  -webkit-text-decoration: none;
   text-decoration: none;
   font-size: 1.6rem;
   padding: 1.6rem;
@@ -18,6 +19,7 @@ exports[`<MLink/> should mach 1`] = `
   width: 0;
   height: 0.2rem;
   background: #dc143c;
+  -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
 

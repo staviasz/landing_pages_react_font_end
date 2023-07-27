@@ -13,7 +13,7 @@ describe('<MLink/>', () => {
 
   it('should render open in new tab', () => {
     renderTheme(
-      <MLink href="http://localhost" target='_blank'>
+      <MLink href="http://localhost" target="_blank">
         Children
       </MLink>,
     );
@@ -25,7 +25,7 @@ describe('<MLink/>', () => {
 
   it('should mach', () => {
     renderTheme(
-      <MLink href="http://localhost" target='_blank'>
+      <MLink href="http://localhost" target="_blank">
         Children
       </MLink>,
     );

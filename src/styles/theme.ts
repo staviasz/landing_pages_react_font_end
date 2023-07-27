@@ -1,4 +1,11 @@
-export const theme = {
+export interface Theme {
+  colors: { [key: string]: string };
+  font: { [key: string]: { [key: string]: string } };
+  media: { [key: string]: string };
+  spacings: { [key: string]: string };
+}
+
+export const theme: Theme = {
   colors: {
     primaryColor: '#0A1128',
     secondaryColor: '#dc143c',

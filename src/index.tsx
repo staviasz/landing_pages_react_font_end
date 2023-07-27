@@ -13,7 +13,7 @@ root.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <Home />
-      <GlobalStyles />
+      <GlobalStyles colors={{}} font={{}} media={{}} spacings={{}} />
     </ThemeProvider>
   </React.StrictMode>,
 );

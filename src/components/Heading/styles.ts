@@ -1,4 +1,5 @@
-import styled, { css, DefaultTheme } from 'styled-components';
+import styled, { css } from 'styled-components';
+import { Theme } from '../../styles/theme';
 
 interface TitleProps {
   colordark: string;
@@ -7,10 +8,10 @@ interface TitleProps {
 }
 
 interface TitleSize {
-  [key: string]: (theme: DefaultTheme) => ReturnType<typeof css>;
+  [key: string]: (theme: Theme) => ReturnType<typeof css>;
 }
 
-const mediaFont = (theme: DefaultTheme) => css`
+const mediaFont = (theme: Theme) => css`
   @media ${theme.media.lteMedium} {
     font-size: ${theme.font.sizes.xlarge};
   }

@@ -1,7 +1,7 @@
 import { Heading } from '../Heading';
 import { LinkContent } from './styles';
 
-interface LogoLinkProps {
+export interface LogoLinkProps {
   text: string;
   link: string;
   srcImage?: string;

@@ -8,11 +8,11 @@ export default {
   title: 'MLink',
   component: MLink,
   args: {
-    children: 'testing',
+    text: 'testing',
     link: 'https://www.google.com.br/',
   },
   argTypes: {
-    children: { type: 'string' },
+    text: { type: 'string' },
   },
 };
 

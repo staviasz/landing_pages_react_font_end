@@ -1,10 +1,11 @@
-import styled, { css, DefaultTheme } from 'styled-components';
+import styled, { css } from 'styled-components';
+import { Theme } from '../../styles/theme';
 
 interface ContainerProps {
   background: string;
 }
 
-const containerBackgroundActivate = (theme: DefaultTheme) => css`
+const containerBackgroundActivate = (theme: Theme) => css`
   background: ${theme.colors.primaryColor};
   color: ${theme.colors.white};
 `;
