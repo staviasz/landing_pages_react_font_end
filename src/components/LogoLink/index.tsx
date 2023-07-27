@@ -2,6 +2,7 @@ import { Heading } from '../Heading';
 import { LinkContent } from './styles';
 
 export interface LogoLinkProps {
+  children?: React.ReactNode;
   text: string;
   link: string;
   srcImage?: string;

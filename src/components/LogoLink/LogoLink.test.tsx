@@ -4,11 +4,11 @@ import { renderTheme } from '../../styles/render-theme';
 
 describe('<LogoLink/>', () => {
   it('should render text logo', () => {
-    renderTheme(<LogoLink link="#target" text="Olá mundo" />);
+    renderTheme(<LogoLink link="#target" text="Hello world" />);
     expect(
-      screen.getByRole('heading', { name: 'Olá mundo' }),
+      screen.getByRole('heading', { name: 'Hello world' }),
     ).toBeInTheDocument();
-    expect(screen.getByRole('link', { name: 'Olá mundo' })).toHaveAttribute(
+    expect(screen.getByRole('link', { name: 'Hello world' })).toHaveAttribute(
       'href',
       '#target',
     );
@@ -16,9 +16,9 @@ describe('<LogoLink/>', () => {
 
   it('should render image logo', () => {
     renderTheme(
-      <LogoLink link="#target" text="Olá mundo" srcImage="image.jpg" />,
+      <LogoLink link="#target" text="Hello world" srcImage="image.jpg" />,
     );
-    expect(screen.getByAltText('Olá mundo')).toHaveAttribute(
+    expect(screen.getByAltText('Hello world')).toHaveAttribute(
       'src',
       'image.jpg',
     );
@@ -26,7 +26,7 @@ describe('<LogoLink/>', () => {
 
   it('should match snapshot', () => {
     const { container } = renderTheme(
-      <LogoLink link="#target" text="Olá mundo" srcImage="image.jpg" />,
+      <LogoLink link="#target" text="Hello world" srcImage="image.jpg" />,
     );
     expect(container.firstChild).toMatchSnapshot();
   });

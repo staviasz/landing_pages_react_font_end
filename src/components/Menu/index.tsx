@@ -7,6 +7,7 @@ import { SectionContainer } from '../SectionContainer';
 import { Button, Container, MenuContainer } from './styles';
 
 interface MenuProps extends NavLinkProps {
+  children?: string | React.ReactNode;
   logoData: LogoLinkProps;
 }
 

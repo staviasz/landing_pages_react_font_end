@@ -12,7 +12,7 @@ export interface NavLinkProps {
 }
 export const NavLink = ({ links = [] }: NavLinkProps) => {
   return (
-    <NLink>
+    <NLink aria-label="Main menu">
       {links.map((link) => (
         <MenuLink key={link.href} {...link} />
       ))}
