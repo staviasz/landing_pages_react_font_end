@@ -40,4 +40,12 @@ export const GlobalStyles = createGlobalStyle<Theme>`
     width: 100%;
     overflow-y: auto;
   }
+
+  code {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    font-size: ${({ theme }) => theme.font.sizes.small};
+    font-family: monospace ;
+  }
 `;

@@ -18,8 +18,9 @@ export const theme: Theme = {
       secondary: "'Montserrat', sans-serif;",
     },
     sizes: {
-      xsmall: '8rem',
-      small: '1.6rem',
+      small: '1.4rem',
+      xsmall: '1.6rem',
+      xxsmall: '1.8rem',
       medium: '2.4rem',
       large: '3.2rem',
       xlarge: '4.0rem',
@@ -32,8 +33,9 @@ export const theme: Theme = {
     lteMedium: '(max-width: 768px)',
   },
   spacings: {
-    xsmall: '8rem',
-    small: '1.6rem',
+    small: '1.4rem',
+    xsmall: '1.6rem',
+    xxsmall: '1.8rem',
     medium: '2.4rem',
     large: '3.2rem',
     xlarge: '4.0rem',

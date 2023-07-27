@@ -22,6 +22,7 @@ export const GridTwoColumn = ({
       <Container>
         <TextContainer>
           <Heading
+            as="h2"
             uppercase="uppercase"
             colordark={background ? 'light' : 'dark'}
           >

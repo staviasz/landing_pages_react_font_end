@@ -264,8 +264,8 @@ exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
   display: block;
   -webkit-text-decoration: none;
   text-decoration: none;
-  font-size: 1.6rem;
-  padding: 1.6rem;
+  font-size: 1.4rem;
+  padding: 1.4rem;
   color: #0A1128;
   position: relative;
 }
