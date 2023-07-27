@@ -11,6 +11,8 @@ exports[`<Menu /> should not render links 1`] = `
   color: #0A1128;
   font-size: 2.4rem;
   text-transform: uppercase;
+  font-family: 'Montserrat',sans-serif;
+  font-style: italic;
 }
 
 .c8 {
@@ -236,6 +238,8 @@ exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
   color: #0A1128;
   font-size: 2.4rem;
   text-transform: uppercase;
+  font-family: 'Montserrat',sans-serif;
+  font-style: italic;
 }
 
 .c8 {

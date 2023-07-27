@@ -1,4 +1,5 @@
 import { LogoLink } from '.';
+import { logoData } from '../mocks/mockLogoData';
 
 interface ArgTypes {
   children: string | React.ReactNode;
@@ -8,16 +9,14 @@ export default {
   title: 'LogoLink',
   component: LogoLink,
   args: {
-    text: 'LogoLink',
-    srcImg: 'assets/images/logo.svg',
-    link: 'http://localhost',
+    logoData: logoData,
   },
 };
 
 export const ImageOnly = (args: ArgTypes) => {
   return (
     <div>
-      <LogoLink link="" text="" {...args} />
+      <LogoLink {...logoData} {...args} />
     </div>
   );
 };
@@ -25,11 +24,11 @@ export const ImageOnly = (args: ArgTypes) => {
 export const TextOnly = (args: ArgTypes) => {
   return (
     <div>
-      <LogoLink link="" text="" {...args} />
+      <LogoLink {...logoData} {...args} />
     </div>
   );
 };
 
 TextOnly.args = {
-  srcImg: '',
+  srcImage: '',
 };

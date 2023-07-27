@@ -40,5 +40,7 @@ export const Title = styled.h1<TitleProps>`
       : theme.colors.white};
     ${titleSize[size](theme)}
     text-transform: ${uppercase};
+    font-family: ${theme.font.family.secondary};
+    font-style: italic;
   `}
 `;

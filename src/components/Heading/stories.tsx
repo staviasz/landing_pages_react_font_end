@@ -1,14 +1,14 @@
 import { Heading } from '.';
 
 interface ArgTypes {
-  children: string;
+  children: string | React.ReactNode;
 }
 
 export default {
   title: 'Heading',
   component: Heading,
   args: {
-    children: 'nao sei',
+    children: 'Title',
   },
   argTypes: {
     children: { type: 'string' },
@@ -31,7 +31,7 @@ export const Light = (args: ArgTypes) => (
 );
 export const Dark = (args: ArgTypes) => (
   <Heading
-    colordark="dark"
+    colordark="light"
     as="h1"
     size="big"
     uppercase="lowercase"

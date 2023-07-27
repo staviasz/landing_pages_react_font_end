@@ -8,7 +8,7 @@ export default {
   title: 'MLink',
   component: MLink,
   args: {
-    text: 'testing',
+    children: 'testing',
     link: 'https://www.google.com.br/',
   },
   argTypes: {

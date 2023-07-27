@@ -1,16 +1,11 @@
 import { Menu } from '.';
 
-import { links } from '../NavLinks/mock';
+import { links } from '../mocks/mockLinks';
+import { logoData } from '../mocks/mockLogoData';
 
 interface Props {
-  args: string;
+  chilgren: string | React.ReactNode;
 }
-
-const logoData = {
-  text: 'Logo',
-  link: '#target',
-  srcImg: '',
-};
 
 export default {
   title: 'Menu',

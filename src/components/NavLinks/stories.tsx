@@ -1,5 +1,5 @@
 import { NavLink } from '.';
-import { links } from './mock';
+import { links } from '../mocks/mockLinks';
 
 interface ArgTypes {
   children: string;

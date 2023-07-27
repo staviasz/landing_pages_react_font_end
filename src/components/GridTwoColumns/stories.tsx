@@ -1,22 +1,22 @@
-import { TextContent } from '.';
+import { GridTwoColumn } from '.';
 import { data } from '../mocks/mockpageData';
 
 interface ArgTypes {
-  children: string;
+  children: string | React.ReactNode;
 }
 
 export default {
-  title: 'TextContent',
-  component: TextContent,
+  title: 'GridTwoColumn',
+  component: GridTwoColumn,
   args: {
-    children: data,
+    data: data,
   },
 };
 
 export const Template = (args: ArgTypes) => {
   return (
     <div>
-      <TextContent {...args} />
+      <GridTwoColumn {...data} {...args} />
     </div>
   );
 };
