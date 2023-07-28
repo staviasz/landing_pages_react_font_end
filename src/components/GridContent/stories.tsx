@@ -1,12 +1,12 @@
 import { GridContent } from '.';
-import { htmlContent } from '../mocks/mockHtmlContent';
+import { htmlContent } from '../../mocks/mockHtmlContent';
 
 interface ArgTypes {
   children: string | React.ReactNode;
 }
 
 export default {
-  title: 'GridContent',
+  title: 'Components/GridContent',
   component: GridContent,
   args: {
     date: htmlContent,

@@ -1,6 +1,6 @@
 import { GridGalery } from '.';
+import { mGGalery } from '../../mocks/mockGGalery';
 import { renderTheme } from '../../styles/render-theme';
-import { mGGalery } from '../mocks/mockGGalery';
 
 describe('<GridGalery/>', () => {
   it('should render', () => {

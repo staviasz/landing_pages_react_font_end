@@ -1,6 +1,6 @@
 import { GridTwoColumn } from '.';
+import { data } from '../../mocks/mockpageData';
 import { renderTheme } from '../../styles/render-theme';
-import { data } from '../mocks/mockpageData';
 
 describe('<GridTwoColumn />', () => {
   it('should render two column grid', () => {

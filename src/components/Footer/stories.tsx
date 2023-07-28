@@ -5,7 +5,7 @@ interface ArgTypes {
 }
 
 export default {
-  title: 'Footer',
+  title: 'Components/Footer',
   component: Footer,
   args: {
     html: 'Projeto executado por <b>Erick staviasz</b> no curso de react de Otavio Miranda',

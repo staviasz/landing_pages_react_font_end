@@ -1,6 +1,6 @@
 import { GridText } from '.';
 
-import { mGText } from '../mocks/mockGridText';
+import { mGText } from '../../mocks/mockGridText';
 
 interface PropsObj {
   title: string;
@@ -15,7 +15,7 @@ interface Props {
 }
 
 export default {
-  title: 'GridText',
+  title: 'Components/GridText',
   component: GridText,
   args: mGText,
 };

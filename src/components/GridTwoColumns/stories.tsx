@@ -1,12 +1,12 @@
 import { GridTwoColumn } from '.';
-import { data } from '../mocks/mockpageData';
+import { data } from '../../mocks/mockpageData';
 
 interface ArgTypes {
   children: string | React.ReactNode;
 }
 
 export default {
-  title: 'GridTwoColumn',
+  title: 'Components/GridTwoColumn',
   component: GridTwoColumn,
   args: {
     data: data,

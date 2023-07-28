@@ -4,7 +4,7 @@ import { Menu } from '.';
 import { renderTheme } from '../../styles/render-theme';
 import { theme } from '../../styles/theme';
 
-import { links } from '../mocks/mockLinks';
+import { links } from '../../mocks/mockLinks';
 
 const logoData = {
   text: 'Logo',

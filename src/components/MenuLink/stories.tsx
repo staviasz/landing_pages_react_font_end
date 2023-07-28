@@ -5,7 +5,7 @@ interface ArgTypes {
 }
 
 export default {
-  title: 'MLink',
+  title: 'Components/MLink',
   component: MLink,
   args: {
     children: 'testing',

@@ -1,12 +1,12 @@
 import { TextContent } from '.';
-import { data } from '../mocks/mockpageData';
+import { data } from '../../mocks/mockpageData';
 
 interface ArgTypes {
   children: string;
 }
 
 export default {
-  title: 'TextContent',
+  title: 'Components/TextContent',
   component: TextContent,
   args: {
     children: data,

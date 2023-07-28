@@ -1,14 +1,14 @@
 import { Menu } from '.';
 
-import { links } from '../mocks/mockLinks';
-import { logoData } from '../mocks/mockLogoData';
+import { links } from '../../mocks/mockLinks';
+import { logoData } from '../../mocks/mockLogoData';
 
 interface Props {
   chilgren: string | React.ReactNode;
 }
 
 export default {
-  title: 'Menu',
+  title: 'Components/Menu',
   component: Menu,
   args: {
     links: links,

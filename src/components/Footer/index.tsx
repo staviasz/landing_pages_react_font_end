@@ -7,10 +7,10 @@ interface FooterProps {
 }
 export const Footer = ({ html }: FooterProps) => {
   return (
-    <SectionContainer>
-      <FooterContainer>
+    <FooterContainer>
+      <SectionContainer>
         <TextContent>{html}</TextContent>
-      </FooterContainer>
-    </SectionContainer>
+      </SectionContainer>
+    </FooterContainer>
   );
 };

@@ -1,5 +1,5 @@
 import { GridGalery } from '.';
-import { mGGalery } from '../mocks/mockGGalery';
+import { mGGalery } from '../../mocks/mockGGalery';
 
 interface PropsObj {
   altText: string;
@@ -14,7 +14,7 @@ interface Props {
 }
 
 export default {
-  title: 'GridGalery',
+  title: 'Components/GridGalery',
   component: GridGalery,
   args: mGGalery,
 };

@@ -1,12 +1,12 @@
 import { NavLink } from '.';
-import { links } from '../mocks/mockLinks';
+import { links } from '../../mocks/mockLinks';
 
 interface ArgTypes {
   children: string;
 }
 
 export default {
-  title: 'NavLink',
+  title: 'Components/NavLink',
   component: NavLink,
   args: {
     links: links,

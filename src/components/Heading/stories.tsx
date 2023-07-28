@@ -5,7 +5,7 @@ interface ArgTypes {
 }
 
 export default {
-  title: 'Heading',
+  title: 'Components/Heading',
   component: Heading,
   args: {
     children: 'Title',

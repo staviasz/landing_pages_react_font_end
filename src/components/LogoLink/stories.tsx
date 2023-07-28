@@ -1,12 +1,12 @@
 import { LogoLink } from '.';
-import { logoData } from '../mocks/mockLogoData';
+import { logoData } from '../../mocks/mockLogoData';
 
 interface ArgTypes {
   children: string | React.ReactNode;
 }
 
 export default {
-  title: 'LogoLink',
+  title: 'Components/LogoLink',
   component: LogoLink,
   args: {
     logoData: logoData,
