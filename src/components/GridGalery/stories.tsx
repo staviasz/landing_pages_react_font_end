@@ -1,0 +1,28 @@
+import { GridGalery } from '.';
+import { mGGalery } from '../mocks/mockGGalery';
+
+interface PropsObj {
+  altText: string;
+  srcImage: string;
+}
+
+interface Props {
+  background: boolean;
+  title: string;
+  description: string;
+  grid: PropsObj[];
+}
+
+export default {
+  title: 'GridGalery',
+  component: GridGalery,
+  args: mGGalery,
+};
+
+export const Template = (args: Props) => {
+  return (
+    <div>
+      <GridGalery {...args} />
+    </div>
+  );
+};
