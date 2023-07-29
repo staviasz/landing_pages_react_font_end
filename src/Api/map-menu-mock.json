@@ -1,0 +1,16 @@
+{
+  "open_in_new_tab": false,
+  "logo_text": "Landing Page",
+  "logo_link": "#home",
+  "menu": [
+    {
+      "open_in_new_tab": true,
+      "link_text": "pricing",
+      "url": "#pricing"
+    },
+    {}
+  ],
+  "logo": {
+    "url": "a.svg"
+  }
+}
