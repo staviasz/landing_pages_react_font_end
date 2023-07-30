@@ -1,3 +1,6 @@
+import { mapMenu } from './map-menu';
+import { mapSections } from './map-section';
+
 /* eslint-disable @typescript-eslint/no-explicit-any */
 export const mapData = (pagesData: any[] = [{}]) => {
   return pagesData.map((data) => {
@@ -12,8 +15,8 @@ export const mapData = (pagesData: any[] = [{}]) => {
       footerHtml,
       title,
       slug,
-      sections,
-      menu,
+      sections: mapSections(sections),
+      menu: mapMenu(menu),
     };
   });
 };

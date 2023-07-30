@@ -1,0 +1,62 @@
+{
+  "__component": "section.section-grid",
+  "_id": "602fdf2d540c00269e056174",
+  "description": "Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut",
+  "title": "My Grid",
+  "text_grid": [
+    {
+      "title": "Teste 1",
+      "description": "Lorem ipsum dolor sit maiores."
+    },
+    {
+      "title": "Teste 2",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
+    },
+    {
+      "title": "Teste 3",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
+    }
+  ],
+  "image_grid": [
+    {
+      "image": {
+        "url": "a.jpg",
+        "alternativeText": "Tela de notebook com Webull"
+      }
+    },
+    {
+      "image": {
+        "url": "https://res.cloudinary.com/dlizakp2a/image/upload/v1613749814/360x360_r_1_c073b11d09.jpg",
+        "alternativeText": "Tela de notebook com Webull"
+      }
+    },
+    {
+      "image": {
+        "url": "https://res.cloudinary.com/dlizakp2a/image/upload/v1613749814/360x360_r_2_38651a645b.jpg",
+        "alternativeText": "Tela de notebook com Webull"
+      }
+    },
+    {
+      "image": {
+        "url": "https://res.cloudinary.com/dlizakp2a/image/upload/v1613749814/360x360_r_1_9d32ada1f9.jpg",
+        "alternativeText": "Tela de notebook com Webull"
+      }
+    },
+    {
+      "image": {
+        "url": "https://res.cloudinary.com/dlizakp2a/image/upload/v1613749814/360x360_r_a1_973b2a68c9.jpg",
+        "alternativeText": "Tela de notebook com Webull"
+      }
+    },
+    {
+      "image": {
+        "url": "https://res.cloudinary.com/dlizakp2a/image/upload/v1613749814/360x360_r_1_b3fcbf1d93.jpg",
+        "alternativeText": "Tela de notebook com Webull"
+      }
+    }
+  ],
+  "metadata": {
+    "background": true,
+    "section_id": "grid-one"
+  }
+}
