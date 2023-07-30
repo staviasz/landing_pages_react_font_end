@@ -1,7 +1,7 @@
-import { GridText } from '../components/GridText';
-import { mGText } from './mockGridText';
-import { links } from './mockLinks';
-import { logoData } from './mockLogoData';
+import { GridText } from '../../components/GridText';
+import { mGText } from '../../components/GridText/mockGridText';
+import { logoData } from '../../components/LogoLink/mockLogoData';
+import { links } from '../../components/Menu/mockLinks';
 
 export const mBase = {
   children: (

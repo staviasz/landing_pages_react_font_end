@@ -2,8 +2,8 @@ import { screen } from '@testing-library/react';
 import { GridContent } from '.';
 import { renderTheme } from '../../styles/render-theme';
 
-import { htmlContent } from '../../mocks/mockHtmlContent';
 import { theme } from '../../styles/theme';
+import { htmlContent } from './mockHtmlContent';
 
 describe('<GridContent />', () => {
   it('should render grid content', () => {

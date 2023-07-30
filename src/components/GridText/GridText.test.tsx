@@ -1,6 +1,6 @@
 import { GridText } from '.';
-import { mGText } from '../../mocks/mockGridText';
 import { renderTheme } from '../../styles/render-theme';
+import { mGText } from './mockGridText';
 
 describe('<GridText/>', () => {
   it('should render', () => {

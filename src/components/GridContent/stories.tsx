@@ -1,5 +1,5 @@
 import { GridContent } from '.';
-import { htmlContent } from '../../mocks/mockHtmlContent';
+import { htmlContent } from './mockHtmlContent';
 
 interface ArgTypes {
   children: string | React.ReactNode;

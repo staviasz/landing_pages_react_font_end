@@ -1,7 +1,7 @@
 import { Base } from '.';
 import { LogoLinkProps } from '../../components/LogoLink';
 import { LinkObj } from '../../components/NavLinks';
-import { mBase } from '../../mocks/mockBasTemplate';
+import { mBase } from './mockBasTemplate';
 
 interface ArgTypes {
   children: React.ReactNode;

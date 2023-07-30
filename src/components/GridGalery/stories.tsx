@@ -1,5 +1,5 @@
 import { GridGalery } from '.';
-import { mGGalery } from '../../mocks/mockGGalery';
+import { mGGalery } from './mockGGalery';
 
 interface PropsObj {
   altText: string;

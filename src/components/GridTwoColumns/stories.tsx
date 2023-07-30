@@ -1,5 +1,5 @@
 import { GridTwoColumn } from '.';
-import { data } from '../../mocks/mockpageData';
+import { data } from './mockpageData';
 
 interface ArgTypes {
   children: string | React.ReactNode;

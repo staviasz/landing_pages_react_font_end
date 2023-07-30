@@ -1,6 +1,6 @@
 import { Base } from '.';
-import { mBase } from '../../mocks/mockBasTemplate';
 import { renderTheme } from '../../styles/render-theme';
+import { mBase } from './mockBasTemplate';
 
 describe('<Base/>', () => {
   it('should render', () => {

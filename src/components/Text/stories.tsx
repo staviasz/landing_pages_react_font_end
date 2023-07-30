@@ -1,5 +1,5 @@
 import { TextContent } from '.';
-import { data } from '../../mocks/mockpageData';
+import { data } from '../GridTwoColumns/mockpageData';
 
 interface ArgTypes {
   children: string;

@@ -1,6 +1,6 @@
 import { GridText } from '.';
 
-import { mGText } from '../../mocks/mockGridText';
+import { mGText } from './mockGridText';
 
 interface PropsObj {
   title: string;

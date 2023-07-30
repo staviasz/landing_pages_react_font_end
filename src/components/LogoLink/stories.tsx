@@ -1,5 +1,5 @@
 import { LogoLink } from '.';
-import { logoData } from '../../mocks/mockLogoData';
+import { logoData } from './mockLogoData';
 
 interface ArgTypes {
   children: string | React.ReactNode;

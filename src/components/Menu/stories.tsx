@@ -1,7 +1,7 @@
 import { Menu } from '.';
 
-import { links } from '../../mocks/mockLinks';
-import { logoData } from '../../mocks/mockLogoData';
+import { logoData } from '../LogoLink/mockLogoData';
+import { links } from './mockLinks';
 
 interface Props {
   chilgren: string | React.ReactNode;
