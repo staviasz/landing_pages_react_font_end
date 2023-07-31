@@ -27,7 +27,7 @@ describe('map-menu', () => {
   });
 
   it('should return an empty array if no links', () => {
-    const links = mapMenuLinks(data.menu);
+    const links = mapMenuLinks(data.menu_links);
     expect(links[1].newTab).toBe(false);
     expect(links[1].children).toBe('');
     expect(links[1].link).toBe('');

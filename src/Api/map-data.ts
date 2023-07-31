@@ -1,8 +1,24 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { mapMenu } from './map-menu';
 import { mapSections } from './map-section';
 
-/* eslint-disable @typescript-eslint/no-explicit-any */
-export const mapData = (pagesData: any[] = [{}]) => {
+interface MenuProps {
+  [key: string]: string | boolean | { [key: string]: string | boolean };
+}
+
+interface SectionProps {
+  [key: string]: string | boolean | [{ [key: string]: string | boolean }];
+}
+
+export interface DataProps {
+  title: string;
+  slug: string;
+  menu: MenuProps;
+  sections: SectionProps[];
+  footerHtml: string;
+}
+
+export const mapData = (pagesData: any[] = [{}]): DataProps[] => {
   return pagesData.map((data) => {
     const {
       footer_text: footerHtml = '',
@@ -12,11 +28,11 @@ export const mapData = (pagesData: any[] = [{}]) => {
       menu = {},
     } = data;
     return {
-      footerHtml,
       title,
       slug,
-      sections: mapSections(sections),
       menu: mapMenu(menu),
+      sections: mapSections(sections),
+      footerHtml,
     };
   });
 };

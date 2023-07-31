@@ -7,7 +7,7 @@ interface GridContentProps {
   children?: React.ReactNode | string;
   title: string;
   html: string;
-  background: boolean;
+  background?: boolean;
 }
 export const GridContent = ({
   title,
