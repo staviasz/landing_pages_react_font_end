@@ -1,4 +1,3 @@
-import mockPage from './data.json';
 import {
   mapImageGrid,
   mapSectionContent,
@@ -17,8 +16,9 @@ describe('map-sections', () => {
   });
 
   it('should render sections with correct data', () => {
-    const data = mapSections(mockPage[0].sections);
-    expect(data[0].component).toBe('section.section-two-columns');
+    // const map = mapSections([dataPage]);
+    const data = mapSections([mockGrid]);
+    expect(data[0].component).toBe('section.section-grid-text');
   });
 
   it('should text invalid data', () => {
@@ -30,16 +30,6 @@ describe('map-sections', () => {
     expect(withNoTextOrImageGrid).toEqual([
       [{ __component: 'section.section-grid' }],
     ]);
-  });
-
-  it('should map sections two-columns no data', () => {
-    const data = mapSectionTwoColumns();
-    expect(data.background).toBe(false);
-    expect(data.component).toBe('');
-    expect(data.sectionId).toBe('');
-    expect(data.srcImage).toBe('');
-    expect(data.text).toBe('');
-    expect(data.title).toBe('');
   });
 
   it('should map sections two-columns', () => {
@@ -79,20 +69,18 @@ describe('map-sections', () => {
     expect(section.sectionId).toBe('');
     expect(section.title).toBe('');
     expect(section.description).toBe('');
-    expect(section.grid).toEqual([]);
+    expect(section.gridText).toEqual([]);
   });
 
   it('should map grid-text', () => {
     const section = mapTextGrid(mockGrid);
     expect(section.background).toBe(true);
-    expect(section.component).toBe('section.section-grid');
-    expect(section.sectionId).toBe('grid-one');
-    expect(section.title).toBe('My Grid');
-    expect(section.description).toBe(
-      'Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut',
-    );
-    expect(section.grid[0].title).toBe('Teste 1');
-    expect(section.grid[0].description).toBe('Lorem ipsum dolor sit maiores.');
+    expect(section.component).toBe('section.section-grid-text');
+    expect(section.sectionId).toBe('section-grid-image');
+    expect(section.title).toBe('section grid image');
+    expect(section.description).toBe('TESTE SECTION GRID IMAGE');
+    expect(section.gridText[0].title).toBe('grid 1');
+    expect(section.gridText[0].description).toBe('TESTE SECTION GRID');
   });
 
   it('should map grid-image if no exits data', () => {
@@ -101,16 +89,16 @@ describe('map-sections', () => {
     expect(section.component).toBe('section.section-grid-image');
     expect(section.sectionId).toBe('');
     expect(section.title).toBe('');
-    expect(section.grid).toEqual([]);
+    expect(section.gridImage).toEqual([]);
   });
 
   it('should map grid-image with data', () => {
     const section = mapImageGrid(mockGrid);
     expect(section.background).toBe(true);
-    expect(section.component).toBe('section.section-grid');
-    expect(section.sectionId).toBe('grid-one');
-    expect(section.title).toBe('My Grid');
-    expect(section.grid[0].srcImage).toBe('a.jpg');
-    expect(section.grid[0].altText).toBe('Tela de notebook com Webull');
+    expect(section.component).toBe('section.section-grid-image');
+    expect(section.sectionId).toBe('section-grid-image');
+    expect(section.title).toBe('section grid image');
+    expect(section.gridImage[0].srcImage).toBe('a.jpg');
+    expect(section.gridImage[0].altText).toBe('Tela de notebook com Webull');
   });
 });

@@ -1,62 +1,598 @@
 {
+  "id": 2,
   "__component": "section.section-grid",
-  "_id": "602fdf2d540c00269e056174",
-  "description": "Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut",
-  "title": "My Grid",
+  "title": "section grid image",
+  "description": "TESTE SECTION GRID IMAGE",
+  "metadata": {
+    "id": 3,
+    "name": "section_grid_image",
+    "section_id": "section-grid-image",
+    "background": true
+  },
   "text_grid": [
     {
-      "title": "Teste 1",
-      "description": "Lorem ipsum dolor sit maiores."
+      "id": 1,
+      "title": "grid 1",
+      "description": "TESTE SECTION GRID"
     },
     {
-      "title": "Teste 2",
-      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
+      "id": 2,
+      "title": "grid 2",
+      "description": "gbjkfsbniobnogdsbnsotgonj TESTE SECTION GRID knvdfoabnfbfmnopbnujbnadfb mngdfiobnfdbmfbngjb "
     },
     {
-      "title": "Teste 3",
-      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
+      "id": 3,
+      "title": "grid 3",
+      "description": "gbjkfsbniobnogdsbnsotgonj TESTE SECTION GRID knvdfoabnfbfmnopbnujbnadfb mngdfiobnfdbmfbngjb "
+    },
+    {
+      "id": 4,
+      "title": "grid 4",
+      "description": "gbjkfsbniobnogdsbnsotgonj TESTE SECTION GRID knvdfoabnfbfmnopbnujbnadfb mngdfiobnfdbmfbngjb "
+    },
+    {
+      "id": 5,
+      "title": "grid 5",
+      "description": "gbjkfsbniobnogdsbnsotgonj TESTE SECTION GRID knvdfoabnfbfmnopbnujbnadfb mngdfiobnfdbmfbngjb "
+    },
+    {
+      "id": 6,
+      "title": "grid 6",
+      "description": "gbjkfsbniobnogdsbnsotgonj TESTE SECTION GRID knvdfoabnfbfmnopbnujbnadfb mngdfiobnfdbmfbngjb "
     }
   ],
   "image_grid": [
     {
+      "id": 1,
       "image": {
-        "url": "a.jpg",
-        "alternativeText": "Tela de notebook com Webull"
+        "data": [
+          {
+            "id": 1,
+            "attributes": {
+              "name": "7-cases-e-exemplos-de-historias-de-sucesso-contadas-por-grandes-marcas-scaled.jpg",
+              "alternativeText": "Tela de notebook com Webull",
+              "caption": null,
+              "width": 2560,
+              "height": 1496,
+              "formats": {
+                "large": {
+                  "ext": ".jpg",
+                  "url": "a.jpg",
+                  "hash": "large_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                  "mime": "image/jpeg",
+                  "name": "large_7-cases-e-exemplos-de-historias-de-sucesso-contadas-por-grandes-marcas-scaled.jpg",
+                  "path": null,
+                  "size": 141.5,
+                  "width": 1000,
+                  "height": 584,
+                  "provider_metadata": {
+                    "public_id": "large_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                    "resource_type": "image"
+                  }
+                },
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/drko8mcj9/image/upload/v1690226064/small_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34.jpg",
+                  "hash": "small_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                  "mime": "image/jpeg",
+                  "name": "small_7-cases-e-exemplos-de-historias-de-sucesso-contadas-por-grandes-marcas-scaled.jpg",
+                  "path": null,
+                  "size": 43.87,
+                  "width": 500,
+                  "height": 292,
+                  "provider_metadata": {
+                    "public_id": "small_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/drko8mcj9/image/upload/v1690226065/medium_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34.jpg",
+                  "hash": "medium_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                  "mime": "image/jpeg",
+                  "name": "medium_7-cases-e-exemplos-de-historias-de-sucesso-contadas-por-grandes-marcas-scaled.jpg",
+                  "path": null,
+                  "size": 87.78,
+                  "width": 750,
+                  "height": 438,
+                  "provider_metadata": {
+                    "public_id": "medium_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/drko8mcj9/image/upload/v1690226064/thumbnail_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34.jpg",
+                  "hash": "thumbnail_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_7-cases-e-exemplos-de-historias-de-sucesso-contadas-por-grandes-marcas-scaled.jpg",
+                  "path": null,
+                  "size": 12.21,
+                  "width": 245,
+                  "height": 143,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 638.8,
+              "url": "a.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                "resource_type": "image"
+              },
+              "createdAt": "2023-07-24T19:14:26.408Z",
+              "updatedAt": "2023-08-01T00:09:54.061Z"
+            }
+          }
+        ]
       }
     },
     {
+      "id": 2,
       "image": {
-        "url": "https://res.cloudinary.com/dlizakp2a/image/upload/v1613749814/360x360_r_1_c073b11d09.jpg",
-        "alternativeText": "Tela de notebook com Webull"
+        "data": [
+          {
+            "id": 1,
+            "attributes": {
+              "name": "7-cases-e-exemplos-de-historias-de-sucesso-contadas-por-grandes-marcas-scaled.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 2560,
+              "height": 1496,
+              "formats": {
+                "large": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/drko8mcj9/image/upload/v1690226065/large_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34.jpg",
+                  "hash": "large_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                  "mime": "image/jpeg",
+                  "name": "large_7-cases-e-exemplos-de-historias-de-sucesso-contadas-por-grandes-marcas-scaled.jpg",
+                  "path": null,
+                  "size": 141.5,
+                  "width": 1000,
+                  "height": 584,
+                  "provider_metadata": {
+                    "public_id": "large_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                    "resource_type": "image"
+                  }
+                },
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/drko8mcj9/image/upload/v1690226064/small_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34.jpg",
+                  "hash": "small_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                  "mime": "image/jpeg",
+                  "name": "small_7-cases-e-exemplos-de-historias-de-sucesso-contadas-por-grandes-marcas-scaled.jpg",
+                  "path": null,
+                  "size": 43.87,
+                  "width": 500,
+                  "height": 292,
+                  "provider_metadata": {
+                    "public_id": "small_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/drko8mcj9/image/upload/v1690226065/medium_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34.jpg",
+                  "hash": "medium_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                  "mime": "image/jpeg",
+                  "name": "medium_7-cases-e-exemplos-de-historias-de-sucesso-contadas-por-grandes-marcas-scaled.jpg",
+                  "path": null,
+                  "size": 87.78,
+                  "width": 750,
+                  "height": 438,
+                  "provider_metadata": {
+                    "public_id": "medium_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/drko8mcj9/image/upload/v1690226064/thumbnail_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34.jpg",
+                  "hash": "thumbnail_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_7-cases-e-exemplos-de-historias-de-sucesso-contadas-por-grandes-marcas-scaled.jpg",
+                  "path": null,
+                  "size": 12.21,
+                  "width": 245,
+                  "height": 143,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 638.8,
+              "url": "https://res.cloudinary.com/drko8mcj9/image/upload/v1690226065/7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                "resource_type": "image"
+              },
+              "createdAt": "2023-07-24T19:14:26.408Z",
+              "updatedAt": "2023-08-01T00:09:54.061Z"
+            }
+          }
+        ]
       }
     },
     {
+      "id": 3,
       "image": {
-        "url": "https://res.cloudinary.com/dlizakp2a/image/upload/v1613749814/360x360_r_2_38651a645b.jpg",
-        "alternativeText": "Tela de notebook com Webull"
+        "data": [
+          {
+            "id": 1,
+            "attributes": {
+              "name": "7-cases-e-exemplos-de-historias-de-sucesso-contadas-por-grandes-marcas-scaled.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 2560,
+              "height": 1496,
+              "formats": {
+                "large": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/drko8mcj9/image/upload/v1690226065/large_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34.jpg",
+                  "hash": "large_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                  "mime": "image/jpeg",
+                  "name": "large_7-cases-e-exemplos-de-historias-de-sucesso-contadas-por-grandes-marcas-scaled.jpg",
+                  "path": null,
+                  "size": 141.5,
+                  "width": 1000,
+                  "height": 584,
+                  "provider_metadata": {
+                    "public_id": "large_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                    "resource_type": "image"
+                  }
+                },
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/drko8mcj9/image/upload/v1690226064/small_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34.jpg",
+                  "hash": "small_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                  "mime": "image/jpeg",
+                  "name": "small_7-cases-e-exemplos-de-historias-de-sucesso-contadas-por-grandes-marcas-scaled.jpg",
+                  "path": null,
+                  "size": 43.87,
+                  "width": 500,
+                  "height": 292,
+                  "provider_metadata": {
+                    "public_id": "small_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/drko8mcj9/image/upload/v1690226065/medium_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34.jpg",
+                  "hash": "medium_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                  "mime": "image/jpeg",
+                  "name": "medium_7-cases-e-exemplos-de-historias-de-sucesso-contadas-por-grandes-marcas-scaled.jpg",
+                  "path": null,
+                  "size": 87.78,
+                  "width": 750,
+                  "height": 438,
+                  "provider_metadata": {
+                    "public_id": "medium_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/drko8mcj9/image/upload/v1690226064/thumbnail_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34.jpg",
+                  "hash": "thumbnail_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_7-cases-e-exemplos-de-historias-de-sucesso-contadas-por-grandes-marcas-scaled.jpg",
+                  "path": null,
+                  "size": 12.21,
+                  "width": 245,
+                  "height": 143,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 638.8,
+              "url": "https://res.cloudinary.com/drko8mcj9/image/upload/v1690226065/7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                "resource_type": "image"
+              },
+              "createdAt": "2023-07-24T19:14:26.408Z",
+              "updatedAt": "2023-08-01T00:09:54.061Z"
+            }
+          }
+        ]
       }
     },
     {
+      "id": 4,
       "image": {
-        "url": "https://res.cloudinary.com/dlizakp2a/image/upload/v1613749814/360x360_r_1_9d32ada1f9.jpg",
-        "alternativeText": "Tela de notebook com Webull"
+        "data": [
+          {
+            "id": 1,
+            "attributes": {
+              "name": "7-cases-e-exemplos-de-historias-de-sucesso-contadas-por-grandes-marcas-scaled.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 2560,
+              "height": 1496,
+              "formats": {
+                "large": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/drko8mcj9/image/upload/v1690226065/large_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34.jpg",
+                  "hash": "large_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                  "mime": "image/jpeg",
+                  "name": "large_7-cases-e-exemplos-de-historias-de-sucesso-contadas-por-grandes-marcas-scaled.jpg",
+                  "path": null,
+                  "size": 141.5,
+                  "width": 1000,
+                  "height": 584,
+                  "provider_metadata": {
+                    "public_id": "large_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                    "resource_type": "image"
+                  }
+                },
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/drko8mcj9/image/upload/v1690226064/small_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34.jpg",
+                  "hash": "small_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                  "mime": "image/jpeg",
+                  "name": "small_7-cases-e-exemplos-de-historias-de-sucesso-contadas-por-grandes-marcas-scaled.jpg",
+                  "path": null,
+                  "size": 43.87,
+                  "width": 500,
+                  "height": 292,
+                  "provider_metadata": {
+                    "public_id": "small_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/drko8mcj9/image/upload/v1690226065/medium_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34.jpg",
+                  "hash": "medium_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                  "mime": "image/jpeg",
+                  "name": "medium_7-cases-e-exemplos-de-historias-de-sucesso-contadas-por-grandes-marcas-scaled.jpg",
+                  "path": null,
+                  "size": 87.78,
+                  "width": 750,
+                  "height": 438,
+                  "provider_metadata": {
+                    "public_id": "medium_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/drko8mcj9/image/upload/v1690226064/thumbnail_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34.jpg",
+                  "hash": "thumbnail_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_7-cases-e-exemplos-de-historias-de-sucesso-contadas-por-grandes-marcas-scaled.jpg",
+                  "path": null,
+                  "size": 12.21,
+                  "width": 245,
+                  "height": 143,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 638.8,
+              "url": "https://res.cloudinary.com/drko8mcj9/image/upload/v1690226065/7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                "resource_type": "image"
+              },
+              "createdAt": "2023-07-24T19:14:26.408Z",
+              "updatedAt": "2023-08-01T00:09:54.061Z"
+            }
+          }
+        ]
       }
     },
     {
+      "id": 5,
       "image": {
-        "url": "https://res.cloudinary.com/dlizakp2a/image/upload/v1613749814/360x360_r_a1_973b2a68c9.jpg",
-        "alternativeText": "Tela de notebook com Webull"
+        "data": [
+          {
+            "id": 1,
+            "attributes": {
+              "name": "7-cases-e-exemplos-de-historias-de-sucesso-contadas-por-grandes-marcas-scaled.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 2560,
+              "height": 1496,
+              "formats": {
+                "large": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/drko8mcj9/image/upload/v1690226065/large_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34.jpg",
+                  "hash": "large_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                  "mime": "image/jpeg",
+                  "name": "large_7-cases-e-exemplos-de-historias-de-sucesso-contadas-por-grandes-marcas-scaled.jpg",
+                  "path": null,
+                  "size": 141.5,
+                  "width": 1000,
+                  "height": 584,
+                  "provider_metadata": {
+                    "public_id": "large_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                    "resource_type": "image"
+                  }
+                },
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/drko8mcj9/image/upload/v1690226064/small_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34.jpg",
+                  "hash": "small_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                  "mime": "image/jpeg",
+                  "name": "small_7-cases-e-exemplos-de-historias-de-sucesso-contadas-por-grandes-marcas-scaled.jpg",
+                  "path": null,
+                  "size": 43.87,
+                  "width": 500,
+                  "height": 292,
+                  "provider_metadata": {
+                    "public_id": "small_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/drko8mcj9/image/upload/v1690226065/medium_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34.jpg",
+                  "hash": "medium_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                  "mime": "image/jpeg",
+                  "name": "medium_7-cases-e-exemplos-de-historias-de-sucesso-contadas-por-grandes-marcas-scaled.jpg",
+                  "path": null,
+                  "size": 87.78,
+                  "width": 750,
+                  "height": 438,
+                  "provider_metadata": {
+                    "public_id": "medium_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/drko8mcj9/image/upload/v1690226064/thumbnail_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34.jpg",
+                  "hash": "thumbnail_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_7-cases-e-exemplos-de-historias-de-sucesso-contadas-por-grandes-marcas-scaled.jpg",
+                  "path": null,
+                  "size": 12.21,
+                  "width": 245,
+                  "height": 143,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 638.8,
+              "url": "https://res.cloudinary.com/drko8mcj9/image/upload/v1690226065/7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                "resource_type": "image"
+              },
+              "createdAt": "2023-07-24T19:14:26.408Z",
+              "updatedAt": "2023-08-01T00:09:54.061Z"
+            }
+          }
+        ]
       }
     },
     {
+      "id": 6,
       "image": {
-        "url": "https://res.cloudinary.com/dlizakp2a/image/upload/v1613749814/360x360_r_1_b3fcbf1d93.jpg",
-        "alternativeText": "Tela de notebook com Webull"
+        "data": [
+          {
+            "id": 1,
+            "attributes": {
+              "name": "7-cases-e-exemplos-de-historias-de-sucesso-contadas-por-grandes-marcas-scaled.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 2560,
+              "height": 1496,
+              "formats": {
+                "large": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/drko8mcj9/image/upload/v1690226065/large_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34.jpg",
+                  "hash": "large_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                  "mime": "image/jpeg",
+                  "name": "large_7-cases-e-exemplos-de-historias-de-sucesso-contadas-por-grandes-marcas-scaled.jpg",
+                  "path": null,
+                  "size": 141.5,
+                  "width": 1000,
+                  "height": 584,
+                  "provider_metadata": {
+                    "public_id": "large_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                    "resource_type": "image"
+                  }
+                },
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/drko8mcj9/image/upload/v1690226064/small_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34.jpg",
+                  "hash": "small_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                  "mime": "image/jpeg",
+                  "name": "small_7-cases-e-exemplos-de-historias-de-sucesso-contadas-por-grandes-marcas-scaled.jpg",
+                  "path": null,
+                  "size": 43.87,
+                  "width": 500,
+                  "height": 292,
+                  "provider_metadata": {
+                    "public_id": "small_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/drko8mcj9/image/upload/v1690226065/medium_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34.jpg",
+                  "hash": "medium_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                  "mime": "image/jpeg",
+                  "name": "medium_7-cases-e-exemplos-de-historias-de-sucesso-contadas-por-grandes-marcas-scaled.jpg",
+                  "path": null,
+                  "size": 87.78,
+                  "width": 750,
+                  "height": 438,
+                  "provider_metadata": {
+                    "public_id": "medium_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/drko8mcj9/image/upload/v1690226064/thumbnail_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34.jpg",
+                  "hash": "thumbnail_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_7-cases-e-exemplos-de-historias-de-sucesso-contadas-por-grandes-marcas-scaled.jpg",
+                  "path": null,
+                  "size": 12.21,
+                  "width": 245,
+                  "height": 143,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 638.8,
+              "url": "https://res.cloudinary.com/drko8mcj9/image/upload/v1690226065/7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "7_cases_e_exemplos_de_historias_de_sucesso_contadas_por_grandes_marcas_scaled_780ff97d34",
+                "resource_type": "image"
+              },
+              "createdAt": "2023-07-24T19:14:26.408Z",
+              "updatedAt": "2023-08-01T00:09:54.061Z"
+            }
+          }
+        ]
       }
     }
-  ],
-  "metadata": {
-    "background": true,
-    "section_id": "grid-one"
-  }
+  ]
 }

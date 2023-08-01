@@ -4,11 +4,14 @@ import { Text } from '../Text/styles';
 
 export const FooterContainer = styled.footer`
   ${({ theme }) => css`
-    text-align: center;
     border-top: 0.1rem solid ${theme.colors.mediumGray};
 
     > ${SectionContainer} {
       padding: ${theme.spacings.xsmall};
+      @media ${theme.media.lteSmall} {
+        max-width: 80%;
+        margin-left: 18px;
+      }
     }
 
     ${Text} {

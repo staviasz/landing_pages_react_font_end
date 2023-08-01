@@ -1,14 +1,14 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { mapMenu } from './map-menu';
-import { mapSections } from './map-section';
+import { mapMenu, MenuProps } from './map-menu';
+import { mapSections, SectionProps } from './map-section';
 
-interface MenuProps {
-  [key: string]: string | boolean | { [key: string]: string | boolean };
-}
+// interface MenuProps {
+//   [key: string]: string | boolean | { [key: string]: string | boolean };
+// }
 
-interface SectionProps {
-  [key: string]: string | boolean | [{ [key: string]: string | boolean }];
-}
+// interface SectionProps {
+//   [key: string]: string | boolean | [{ [key: string]: string | boolean }];
+// }
 
 export interface DataProps {
   title: string;

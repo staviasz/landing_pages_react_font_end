@@ -1,7 +1,21 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable @typescript-eslint/no-explicit-any */
+export interface SectionProps {
+  component: string;
+  title: string;
+  background: boolean;
+  sectionId: string;
+  html: string;
+  gridText: [{ title: string; description: string }];
+  gridImage: [{ srcImage: string; altText: string }];
+  description: string;
+  text: string;
+  srcImage: string;
+}
+
 export const mapSections = (sections: any = []) => {
   return sections.map((section: any) => {
-    if (section.__component === 'section.section-two-columns') {
+    if (section.__component === 'section.section-two-coluns') {
       return mapSectionTwoColumns(section);
     }
     if (section.__component === 'section.section-content') {
@@ -20,86 +34,128 @@ export const mapSections = (sections: any = []) => {
   });
 };
 
-export const mapSectionTwoColumns = (section: any = {}) => {
+export const mapSectionTwoColumns = (section: any = {}): SectionProps => {
   const {
     __component: component = '',
     title = '',
-    description: text = '',
-    image: { url: srcImage = '' } = '',
-    metadata: { background = false, section_id: sectionId = '' } = false,
+    html = '',
+    gridText = [],
+    gridImage = [],
+    description = '',
+    text = description,
+    metadata: { section_id: sectionId = '', background = false } = false,
+    image: {
+      data: {
+        attributes: { url: srcImage = '' },
+      },
+    },
   } = section;
   return {
     component,
     title,
+    background,
+    sectionId,
+    html,
+    gridText,
+    gridImage,
+    description,
     text,
     srcImage,
-    background,
-    sectionId,
   };
 };
 
-export const mapSectionContent = (section: any = {}) => {
+export const mapSectionContent = (section: any = {}): SectionProps => {
   const {
     __component: component = '',
     title = '',
-    content: html = '',
     metadata: { background = false, section_id: sectionId = '' } = false,
+    content: html = '',
+    gridText = [],
+    gridImage = [],
+    description = '',
+    text = '',
+    srcImage = '',
   } = section;
   return {
     component,
     title,
-    html,
     background,
     sectionId,
+    html,
+    gridText,
+    gridImage,
+    description,
+    text,
+    srcImage,
   };
 };
 
-export const mapTextGrid = (section: any = {}) => {
+export const mapTextGrid = (section: any = {}): SectionProps => {
   const {
     __component: component = 'section.section-grid-text',
     title = '',
-    description = '',
     metadata: { background = false, section_id: sectionId = '' } = false,
-    text_grid: grid = [],
+    html = '',
+    text_grid: gridText = [],
+    gridImage = [],
+    description = '',
+    text = '',
+    srcImage = '',
   } = section;
   return {
-    component,
+    component: 'section.section-grid-text',
     title,
-    description,
     background,
     sectionId,
-    grid: grid.map((text: any) => {
+    html,
+    gridText: gridText.map((text: any) => {
       const { title = '', description = '' } = text;
       return {
         title,
         description,
       };
     }),
+    gridImage,
+    description,
+    text,
+    srcImage,
   };
 };
 
-export const mapImageGrid = (section: any = {}) => {
+export const mapImageGrid = (section: any = {}): SectionProps => {
   const {
     __component: component = 'section.section-grid-image',
     title = '',
-    content: html = '',
     metadata: { background = false, section_id: sectionId = '' } = false,
-    image_grid: grid = [],
+    content: html = '',
+    image_grid: gridImage = [],
+    gridText = [],
+    description = '',
+    text = '',
+    srcImage = '',
   } = section;
   return {
-    component,
+    component: 'section.section-grid-image',
     title,
-    html,
     background,
     sectionId,
-    grid: grid.map((img: any) => {
+    html,
+    gridText,
+    gridImage: gridImage.map((img: any) => {
       const {
-        image: { url: srcImage = '', alternativeText: altText = '' } = '',
+        image: { data },
       } = img;
+      const {
+        attributes: { url: srcImage = '', alternativeText: altText = '' },
+      } = data[0];
+      // console.log(srcImage, altText);
       return {
         srcImage,
         altText,
       };
     }),
+    description,
+    text,
+    srcImage,
   };
 };

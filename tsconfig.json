@@ -24,5 +24,7 @@
   },
   "include": [
     "src",
+    "src/templates/Home/Home.test.tsx",
+    "src/templates/base/stories.tsx",
   ]
 }

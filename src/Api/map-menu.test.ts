@@ -13,23 +13,18 @@ describe('map-menu', () => {
   it('should map menu to match keys and values required', () => {
     const menu = mapMenu(data);
     expect(menu.newTab).toBe(false);
-    expect(menu.text).toBe('Landing Page');
-    expect(menu.link).toBe('#home');
-    expect(menu.srcImage).toBe('a.svg');
-    expect(menu.links[0].newTab).toBe(true);
-    expect(menu.links[0].children).toBe('pricing');
-    expect(menu.links[0].link).toBe('#pricing');
+    expect(menu.text).toBe('page_teste');
+    expect(menu.link).toBe('#');
+    expect(menu.srcImage).toBe('a.jpg');
+    expect(menu.links[0].target).toBe('_self');
+    expect(menu.links[0].children).toBe('link_1');
+    expect(menu.links[0].href).toBe('#home');
   });
 
   it('should return an empty array if no links', () => {
     const links = mapMenuLinks();
-    expect(links).toEqual([]);
-  });
-
-  it('should return an empty array if no links', () => {
-    const links = mapMenuLinks(data.menu_links);
-    expect(links[1].newTab).toBe(false);
-    expect(links[1].children).toBe('');
-    expect(links[1].link).toBe('');
+    expect(links[0].target).toBe('_self');
+    expect(links[0].children).toBe('');
+    expect(links[0].href).toBe('');
   });
 });
