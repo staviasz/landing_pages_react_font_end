@@ -49,6 +49,7 @@ exports[`<GridContent /> should render grid content 1`] = `
    
   <div
     class="c0"
+    id="id"
   >
     <div
       class="c1"
@@ -206,6 +207,7 @@ exports[`<GridContent /> should render grid content 2`] = `
    
   <div
     class="c0"
+    id="id"
   >
     <div
       class="c1"

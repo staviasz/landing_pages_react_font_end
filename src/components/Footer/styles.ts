@@ -8,7 +8,7 @@ export const FooterContainer = styled.footer`
 
     > ${SectionContainer} {
       padding: ${theme.spacings.xsmall};
-      @media ${theme.media.lteSmall} {
+      @media ${theme.media.lteMedium} {
         max-width: 80%;
         margin-left: 18px;
       }

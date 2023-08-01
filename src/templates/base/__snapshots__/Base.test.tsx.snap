@@ -26,10 +26,6 @@ exports[`<Base/> should render 1`] = `
   margin: 0;
 }
 
-.c23 .c15 {
-  width: 100%;
-}
-
 .c23 a {
   color: inherit;
   -webkit-text-decoration: none;
@@ -281,7 +277,7 @@ exports[`<Base/> should render 1`] = `
   transform: rotate(5deg);
 }
 
-@media (max-width:500px) {
+@media (max-width:768px) {
   .c23 > .c3 {
     max-width: 80%;
     margin-left: 18px;
@@ -547,6 +543,7 @@ exports[`<Base/> should render 1`] = `
   >
     <div
       class="c12"
+      id="id"
     >
       <div
         class="c3 c4"
@@ -615,6 +612,7 @@ exports[`<Base/> should render 1`] = `
     </div>
     <div
       class="c20"
+      id="id"
     >
       <div
         class="c3 c4"
@@ -683,6 +681,7 @@ exports[`<Base/> should render 1`] = `
     </div>
     <div
       class="c12"
+      id="id"
     >
       <div
         class="c3 c4"
@@ -751,6 +750,7 @@ exports[`<Base/> should render 1`] = `
     </div>
     <div
       class="c20"
+      id="id"
     >
       <div
         class="c3 c4"
@@ -819,6 +819,7 @@ exports[`<Base/> should render 1`] = `
     </div>
     <div
       class="c12"
+      id="id"
     >
       <div
         class="c3 c4"
@@ -887,6 +888,7 @@ exports[`<Base/> should render 1`] = `
     </div>
     <div
       class="c20"
+      id="id"
     >
       <div
         class="c3 c4"

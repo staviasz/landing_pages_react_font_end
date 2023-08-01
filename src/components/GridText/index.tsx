@@ -13,6 +13,7 @@ interface GridTextProps {
   title: string;
   description: string;
   grid: GridObj[];
+  sectionId?: string;
 }
 
 export const GridText = ({
@@ -20,9 +21,10 @@ export const GridText = ({
   description,
   grid,
   background = false,
+  sectionId = '',
 }: GridTextProps) => {
   return (
-    <SectionBackground background={background}>
+    <SectionBackground background={background} sectionId={sectionId}>
       <Container>
         <Heading
           as="h2"

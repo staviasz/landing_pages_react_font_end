@@ -86,6 +86,7 @@ exports[`<GridText/> should render 1`] = `
    
   <div
     class="c0"
+    id="id"
   >
     <div
       class="c1"

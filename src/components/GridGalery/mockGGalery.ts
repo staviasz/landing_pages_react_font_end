@@ -1,4 +1,5 @@
 export const mGGalery = {
+  sectionId: 'id',
   background: false,
   title: 'My grid',
   description:

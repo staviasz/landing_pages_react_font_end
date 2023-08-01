@@ -5,7 +5,7 @@ import { renderTheme } from '../../styles/render-theme';
 describe('<SectionBackground />', () => {
   it('should render with background dark', () => {
     const { container } = renderTheme(
-      <SectionBackground background={true}>
+      <SectionBackground background={true} sectionId="id">
         <h1>Children</h1>
       </SectionBackground>,
     );
@@ -15,7 +15,7 @@ describe('<SectionBackground />', () => {
 
   it('should render with background light', () => {
     const { container } = renderTheme(
-      <SectionBackground background={true}>
+      <SectionBackground background={true} sectionId="id">
         <h1>Children</h1>
       </SectionBackground>,
     );

@@ -9,6 +9,7 @@ interface GridTwoColumnProps {
   text: string;
   srcImage: string;
   background: boolean;
+  sectionId?: string;
 }
 
 export const GridTwoColumn = ({
@@ -16,9 +17,10 @@ export const GridTwoColumn = ({
   text,
   srcImage,
   background = false,
+  sectionId = '',
 }: GridTwoColumnProps) => {
   return (
-    <SectionBackground background={background}>
+    <SectionBackground background={background} sectionId={sectionId}>
       <Container>
         <TextContainer>
           <Heading

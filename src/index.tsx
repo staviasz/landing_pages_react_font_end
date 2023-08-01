@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Home from './templates/Home';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from './styles/global-styles';
 import { theme } from './styles/theme';
+import Home from './templates/Home';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement,
@@ -12,7 +13,11 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
-      <Home />
+      <BrowserRouter>
+        <Routes>
+          <Route path="*" Component={Home} />
+        </Routes>
+      </BrowserRouter>
       <GlobalStyles colors={{}} font={{}} media={{}} spacings={{}} />
     </ThemeProvider>
   </React.StrictMode>,

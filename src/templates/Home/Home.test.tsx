@@ -1,8 +1,15 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from '.';
 import { renderTheme } from '../../styles/render-theme';
 
 describe('<Home />', () => {
   it('should render home', () => {
-    renderTheme(<Home />);
+    renderTheme(
+      <BrowserRouter>
+        <Routes>
+          <Route path="*" Component={Home} />
+        </Routes>
+      </BrowserRouter>,
+    );
   });
 });

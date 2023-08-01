@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 import { DataProps, mapData } from '../../Api/map-data';
 import { GridContent } from '../../components/GridContent';
 import { GridGalery } from '../../components/GridGalery';
@@ -11,13 +12,16 @@ import { Base } from '../base';
 function Home() {
   const [dataPage, setDataPage] = useState<DataProps>();
   const [isLoading, setisLoading] = useState<boolean>(true);
+  const location = useLocation();
   const isMounted = useRef(true);
 
   useEffect(() => {
+    const pathName = location.pathname.replace(/[^a-z0-9-_]/gi, '-');
+    const slug = pathName ? pathName : 'landing-page';
     const load = async () => {
       try {
         const data = await fetch(
-          'http://localhost:1337/api/pages/?filters[teste-1-1]=landing-page&populate=deep',
+          `http://localhost:1337/api/pages/?slug=${slug}&populate=deep`,
         );
         const json = await data.json();
         const { attributes } = json.data[0];
@@ -36,7 +40,20 @@ function Home() {
     return () => {
       isMounted.current = false;
     };
-  }, []);
+  }, [location]);
+
+  useEffect(() => {
+    if (dataPage === undefined && isLoading === true) {
+      document.title = 'Carregando...';
+    } else if (dataPage === undefined && isLoading === false) {
+      document.title = 'Pagina não encontrada';
+    } else {
+      if (dataPage) {
+        document.title = `Erick - ${dataPage.slug}`;
+      }
+    }
+  }, [isLoading, dataPage]);
+
   if (isLoading === true) {
     return <Loading />;
   }
@@ -54,10 +71,10 @@ function Home() {
       logoData={{ text, link, srcImage }}
     >
       {sections.map((section, index) => {
-        // console.log('text', text, 'link', link, 'src', srcImage);
-
         const { component } = section;
         const key = `${slug}-${index}`;
+        console.log(section);
+
         if (component === 'section.section-two-coluns') {
           return <GridTwoColumn key={key} {...section} />;
         }

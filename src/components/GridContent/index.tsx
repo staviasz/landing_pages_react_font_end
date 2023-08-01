@@ -8,14 +8,16 @@ interface GridContentProps {
   title: string;
   html: string;
   background?: boolean;
+  sectionId?: string;
 }
 export const GridContent = ({
   title,
   html,
   background = false,
+  sectionId = '',
 }: GridContentProps) => {
   return (
-    <SectionBackground background={background}>
+    <SectionBackground background={background} sectionId={sectionId}>
       <Container>
         <Heading
           as="h2"

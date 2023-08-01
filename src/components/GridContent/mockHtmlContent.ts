@@ -1,4 +1,5 @@
 export const htmlContent = {
+  sectionId: 'id',
   title: 'title testing',
   html: `<p>Lorem ipsum dolor sit amet. In adipisci exercitationem sed iure sapiente <strong>Qui magnam ex accusamus
           enim</strong> et aspernatur voluptatem sit dolorem cumque est incidunt officia. Ex voluptatem harum ea architecto

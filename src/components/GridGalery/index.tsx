@@ -13,6 +13,7 @@ interface GridGaleryProps {
   title: string;
   description: string;
   grid: GridObj[];
+  sectionId?: string;
 }
 
 export const GridGalery = ({
@@ -20,9 +21,10 @@ export const GridGalery = ({
   description,
   grid,
   background = false,
+  sectionId = '',
 }: GridGaleryProps) => {
   return (
-    <SectionBackground background={background}>
+    <SectionBackground background={background} sectionId={sectionId}>
       <Container>
         <Heading
           as="h2"

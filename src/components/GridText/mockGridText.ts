@@ -1,4 +1,5 @@
 export const mGText = {
+  sectionId: 'id',
   background: false,
   title: 'My grid',
   description:
