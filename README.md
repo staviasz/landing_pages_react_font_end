@@ -1,46 +1,83 @@
-# Getting Started with Create React App
+# Documentação do Projeto de Landing Pages em TypeScript (TSX)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O projeto de Landing Pages em TypeScript (TSX) é uma aplicação que permite criar landing pages dinâmicas consumindo uma API para obter informações sobre a estrutura das seções, links de menus e dados/metadados das páginas. O projeto adota a componentização do React para facilitar a criação e exibição de páginas de destino de forma modular.
 
-## Available Scripts
+## Requisitos
 
-In the project directory, you can run:
+O projeto de Landing Pages foi desenvolvido com as seguintes dependências:
 
-### `npm start`
+### Dependências Principais
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React: Biblioteca para construção de interfaces de usuário.
+- React DOM: Biblioteca para renderização de elementos React no DOM.
+- React Router DOM: Biblioteca para roteamento em aplicações React.
+- Styled Icons (Material Outlined): Ícones estilizados para componentes React.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Dependências de Desenvolvimento
 
-### `npm test`
+- Storybook: Ferramenta para desenvolvimento e teste de componentes de UI.
+- Jest Styled Components: Plugin para testar componentes estilizados com Jest.
+- Prop Types: Biblioteca para verificação de tipos das propriedades dos componentes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Funcionalidades Principais
 
-### `npm run build`
+O projeto de Landing Pages oferece as seguintes funcionalidades principais:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Criação de Landing Pages: Os usuários podem criar landing pages personalizadas utilizando a estrutura e dados da API.
+2. Componentização de UI: Utiliza a componentização do React para criar e reutilizar componentes de interface de usuário.
+3. Consumo de API: As landing pages consomem a API para obter informações sobre a estrutura das seções, links de menus e dados das páginas.
+4. Testes de Componentes: Utiliza o Storybook e o Jest para testar componentes de UI de forma isolada e automatizada.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Estrutura de Pastas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+A estrutura de pastas do projeto é organizada da seguinte maneira:
 
-### `npm run eject`
+- /
+- |-- src/
+- | |-- components/
+- | | |-- ...
+- | |-- templates/
+- | | |-- ...
+- | |-- api/
+- | |-- styles/
+- | | |-- ...
+- |-- .storybook/
+- | |-- ...
+- |-- public/
+- | |-- ...
+- |-- package.json
+- |-- tsconfig.json
+- |-- ...
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  
+## Tecnologias Utilizadas
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+O projeto de Landing Pages utiliza as seguintes tecnologias e ferramentas:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- React: Biblioteca para construção de interfaces de usuário.
+- React Router DOM: Biblioteca para gerenciamento de rotas em aplicações React.
+- Styled Components: Biblioteca para estilização de componentes com CSS-in-JS.
+- Storybook: Ferramenta para desenvolvimento e teste de componentes de UI.
+- Prop Types: Biblioteca para especificação e verificação de tipos de propriedades dos componentes.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Execução e Desenvolvimento
 
-## Learn More
+Para executar o projeto de Landing Pages e iniciar o desenvolvimento, siga os passos abaixo:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone o repositório do projeto para o seu ambiente local.
+2. Navegue até a pasta raiz do projeto e execute `npm install` para instalar as dependências.
+3. Execute `npm start` para iniciar o servidor de desenvolvimento e visualizar a aplicação no navegador.
+4. Para desenvolvimento de componentes isolados, utilize `npm run storybook` para iniciar o Storybook.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## API Utilizada
+
+O projeto consome a API disponibilizada no seguinte repositório: [Landing Pages Strapi Back-End](https://github.com/staviasz/landing_pages_strapi_back_end).
+
+## Contribuição
+
+Contribuições são bem-vindas! Se você deseja contribuir com melhorias ou adicionar novos recursos ao projeto, sinta-se à vontade para criar um fork do repositório e abrir um pull request.
+
+## Licença
+
+Este projeto é disponibilizado sob a licença MIT. Desenvolvido por Erick Staviasz como parte do curso de React e Nestxjs ministrado por Otávio Miranda.
+
